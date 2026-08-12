@@ -1,1 +1,0 @@
-# alkhayr-finance.github.io
