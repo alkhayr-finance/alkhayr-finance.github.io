@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الخير الجزيل للحلول التمويلية</title>
+<meta name="description" content="حلول واستشارات تمويلية للمنشآت والشركات — الخير الجزيل، الأحساء.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:site_name" content="الخير الجزيل للحلول التمويلية">
+<meta property="og:title" content="الخير الجزيل للحلول التمويلية">
+<meta property="og:description" content="حلول واستشارات تمويلية للمنشآت والشركات في جميع مناطق المملكة.">
+<meta property="og:image" content="https://alkhayr-finance.com/logo-alkhayr.webp">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta property="og:url" content="https://alkhayr-finance.com/links">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="الخير الجزيل للحلول التمويلية">
+<meta name="twitter:image" content="https://alkhayr-finance.com/logo-alkhayr.webp">
+<meta name="theme-color" content="#0B1D3F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ============================================================
+     ▸ غيّر رقم الجوال من مكان واحد: ابحث عن  966598148154
+       (رابط الواتساب) واستبدله برقمك بصيغة الدولة.
+       مثال: 0512345678  تصير  966512345678
+     ============================================================ */
+
+  :root{
+    --ink:        #0B1D3F;   /* كحلي غامق - الخلفية */
+    --ink-soft:   #14305C;   /* كحلي أفتح - الحدود */
+    --paper:      #F6F2E9;   /* عاجي - البطاقة */
+    --paper-dim:  #E4DCCB;
+    --brass:      #C79A38;   /* ذهبي - الهوية */
+    --brass-lit:  #E0BC6A;
+    --slate:      #5A6478;
+
+    --step: clamp(1rem, 4vw, 1.4rem);
+  }
+
+  *{ box-sizing:border-box; margin:0; padding:0; }
+
+  html{ -webkit-text-size-adjust:100%; }
+
+  body{
+    min-height:100dvh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: clamp(1rem, 5vw, 3rem) 1rem;
+    background: var(--ink);
+    background-image:
+      radial-gradient(ellipse 90% 55% at 50% -10%, #1B3D73 0%, transparent 70%),
+      repeating-linear-gradient(115deg, rgba(199,154,56,.05) 0 1px, transparent 1px 9px);
+    color: var(--paper);
+    font-family:"IBM Plex Sans Arabic", system-ui, sans-serif;
+    font-weight:300;
+    line-height:1.7;
+  }
+
+  /* ---------- البطاقة ---------- */
+  .card{
+    width:100%;
+    max-width:26.5rem;
+    position:relative;
+    background: var(--paper);
+    color: var(--ink);
+    padding: clamp(1.9rem, 7vw, 2.6rem) clamp(1.3rem, 6vw, 2.1rem) clamp(1.4rem, 5vw, 1.8rem);
+    box-shadow: 0 1.6rem 3.5rem rgba(0,0,0,.45);
+  }
+  /* إطار ذهبي رفيع داخلي - إحساس المستند الرسمي */
+  .card::before{
+    content:"";
+    position:absolute;
+    inset:.5rem;
+    border:1px solid rgba(199,154,56,.55);
+    pointer-events:none;
+  }
+  /* علامات الأركان */
+  .tick{ position:absolute; width:.85rem; height:.85rem; pointer-events:none; }
+  .tick::before,.tick::after{ content:""; position:absolute; background:var(--brass); }
+  .tick::before{ width:100%; height:1.5px; }
+  .tick::after{ width:1.5px; height:100%; }
+  .tick.tr{ top:0; right:0; }
+  .tick.tl{ top:0; left:0; }
+  .tick.br{ bottom:0; right:0; }
+  .tick.br::before{ bottom:0; } .tick.br::after{ bottom:0; right:0; }
+  .tick.bl{ bottom:0; left:0; }
+  .tick.bl::before{ bottom:0; } .tick.bl::after{ bottom:0; left:0; }
+  .tick.tr::after{ right:0; }
+  .tick.bl::after{ left:0; }
+
+  /* ---------- الهوية ---------- */
+  .mark{
+    width:3.4rem; height:3.4rem;
+    margin:0 auto .95rem;
+    display:block;
+  }
+
+  .name{
+    font-family:"Reem Kufi", sans-serif;
+    font-weight:700;
+    font-size: clamp(1.45rem, 6.4vw, 1.85rem);
+    line-height:1.35;
+    text-align:center;
+    letter-spacing:.01em;
+  }
+  .name .sub{
+    display:block;
+    font-size:.62em;
+    font-weight:400;
+    color:var(--brass);
+    margin-top:.15rem;
+  }
+
+  .tagline{
+    text-align:center;
+    font-size:.9rem;
+    color:var(--slate);
+    margin-top:.7rem;
+    padding:0 .4rem;
+  }
+
+  /* ---------- شريط الاعتماد ---------- */
+  .meta{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:.7rem;
+    margin:1.15rem 0 1.5rem;
+    font-size:.72rem;
+    letter-spacing:.04em;
+    color:var(--ink-soft);
+  }
+  .meta span{ white-space:nowrap; }
+  .meta i{
+    flex:0 0 auto;
+    width:.28rem; height:.28rem;
+    background:var(--brass);
+    transform:rotate(45deg);
+  }
+  .meta::before,.meta::after{
+    content:"";
+    flex:1 1 auto;
+    height:1px;
+    background:linear-gradient(to left, transparent, var(--paper-dim));
+  }
+  .meta::after{ background:linear-gradient(to right, transparent, var(--paper-dim)); }
+
+  /* ---------- الروابط ---------- */
+  .actions{ display:flex; flex-direction:column; gap:.6rem; }
+
+  .act{
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:.85rem;
+    padding:.85rem 1rem;
+    text-decoration:none;
+    color:var(--ink);
+    background:#fff;
+    border:1px solid var(--paper-dim);
+    transition: transform .18s ease, border-color .18s ease, background .18s ease;
+  }
+  .act:hover, .act:focus-visible{
+    border-color:var(--brass);
+    background:#FFFDF7;
+    transform:translateX(-3px);
+  }
+  .act:focus-visible{ outline:2px solid var(--ink); outline-offset:2px; }
+
+  /* الرابط الأساسي - الواتساب */
+  .act.primary{
+    background:var(--ink);
+    color:var(--paper);
+    border-color:var(--ink);
+  }
+  .act.primary:hover, .act.primary:focus-visible{
+    background:var(--ink-soft);
+    border-color:var(--brass);
+  }
+  .act.primary .label{ color:var(--paper); }
+  .act.primary .hint{ color:rgba(246,242,233,.62); }
+  .act.primary .ico{ stroke:var(--brass-lit); }
+
+  .ico{
+    flex:0 0 auto;
+    width:1.32rem; height:1.32rem;
+    stroke:var(--brass);
+    stroke-width:1.6;
+    fill:none;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .txt{ flex:1 1 auto; min-width:0; }
+  .label{
+    display:block;
+    font-family:"Reem Kufi", sans-serif;
+    font-weight:600;
+    font-size:.98rem;
+    line-height:1.4;
+  }
+  .hint{
+    display:block;
+    font-size:.73rem;
+    color:var(--slate);
+    line-height:1.5;
+  }
+  .arw{
+    flex:0 0 auto;
+    width:.95rem; height:.95rem;
+    stroke:currentColor;
+    stroke-width:1.5;
+    fill:none;
+    opacity:.35;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+
+  /* ---------- التذييل ---------- */
+  .foot{
+    margin-top:1.5rem;
+    padding-top:.95rem;
+    border-top:1px solid var(--paper-dim);
+    text-align:center;
+    font-size:.7rem;
+    letter-spacing:.03em;
+    color:var(--slate);
+  }
+  .foot b{ font-weight:500; color:var(--ink-soft); }
+
+  /* ---------- الحركة ---------- */
+  .rise{ opacity:0; transform:translateY(9px); animation:rise .55s cubic-bezier(.2,.7,.3,1) forwards; }
+  .card{ animation:card .5s ease forwards; }
+  @keyframes card{ from{ opacity:0; transform:translateY(14px);} to{ opacity:1; transform:none;} }
+  @keyframes rise{ to{ opacity:1; transform:none; } }
+  .d1{animation-delay:.10s}.d2{animation-delay:.17s}.d3{animation-delay:.24s}
+  .d4{animation-delay:.31s}.d5{animation-delay:.38s}.d6{animation-delay:.45s}.d7{animation-delay:.52s}
+
+  @media (prefers-reduced-motion: reduce){
+    .rise,.card{ animation:none; opacity:1; transform:none; }
+    .act{ transition:none; }
+  }
+</style>
+</head>
+<body>
+
+<main class="card">
+  <i class="tick tl"></i><i class="tick tr"></i><i class="tick bl"></i><i class="tick br"></i>
+
+  <!-- شعار مبسط: سهم صاعد داخل إطار -->
+  <svg class="mark rise d1" viewBox="0 0 48 48" aria-hidden="true">
+    <rect x="3" y="3" width="42" height="42" fill="none" stroke="#C79A38" stroke-width="1.2"/>
+    <path d="M13 33 L21 25 L27 30 L36 18" fill="none" stroke="#0B1D3F" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M29.5 17.5 H36.5 V24.5" fill="none" stroke="#C79A38" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <h1 class="name rise d2">
+    الخير الجزيل
+    <span class="sub">للحلول التمويلية</span>
+  </h1>
+
+  <p class="tagline rise d3">حلول واستشارات تمويلية للمنشآت والشركات في جميع مناطق المملكة</p>
+
+  <div class="meta rise d4">
+    <span>منذ 2014</span><i></i><span>الأحساء</span>
+  </div>
+
+  <nav class="actions">
+
+    <!-- ▸ الرقم هنا (واتساب) -->
+    <a class="act primary rise d5" href="https://wa.me/966598148154" target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.4L3.5 20.5l1.6-4.6A8.4 8.4 0 1 1 20.5 11.6z"/>
+        <path d="M8.9 8.3c.2-.5.4-.5.7-.5h.6c.2 0 .4 0 .6.5l.8 1.9c.1.3 0 .5-.1.7l-.5.6c-.1.2-.2.3 0 .6a7 7 0 0 0 3 2.6c.3.1.5.1.7-.1l.6-.7c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.3.4.5 0 1-.7 1.9-1.6 2-1.5.1-4-.9-6-3.2-1.6-1.9-2.3-3.6-2.3-4.7 0-.6.2-1.2.7-1.9z"/>
+      </svg>
+      <span class="txt">
+        <span class="label">تواصل عبر واتساب</span>
+        <span class="hint">أسرع طريقة — رد خلال ساعات العمل</span>
+      </span>
+      <svg class="arw" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6"/></svg>
+    </a>
+
+    <a class="act rise d6" href="https://alkhayr-finance.com/?utm_source=bio&utm_medium=social&utm_campaign=links"
+       target="_blank" rel="noopener">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="8.6"/>
+        <path d="M3.4 12h17.2M12 3.4c2.2 2.4 3.3 5.4 3.3 8.6s-1.1 6.2-3.3 8.6c-2.2-2.4-3.3-5.4-3.3-8.6S9.8 5.8 12 3.4z"/>
+      </svg>
+      <span class="txt">
+        <span class="label">الموقع الإلكتروني</span>
+        <span class="hint">برامج التمويل والخدمات بالتفصيل</span>
+      </span>
+      <svg class="arw" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6"/></svg>
+    </a>
+
+  </nav>
+
+  <p class="foot">
+    <b>الخير الجزيل للحلول التمويلية</b>
+  </p>
+</main>
+
+</body>
+</html>
